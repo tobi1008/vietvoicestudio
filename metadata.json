@@ -1,0 +1,8 @@
+{
+  "name": "VietVoice Studio - TTS & Voice Cloning Tiếng Việt",
+  "description": "Nền tảng Text-to-Speech và Voice Cloning tiếng Việt chất lượng cao với Edge-TTS, Web Speech API và F5-TTS / XTTS-v2 pipeline.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

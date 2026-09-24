@@ -1,0 +1,15 @@
+# VietVoice Studio - Voice Cloning Worker Dependencies
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+soundfile>=0.12.1
+numpy>=1.24.0
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# Choose one or both cloning engines:
+# F5-TTS (Flow-matching diffusion, outstanding Vietnamese phoneme prosody)
+f5-tts>=0.1.0
+
+# Coqui XTTS-v2 (Alternative multilingual voice cloner)
+TTS>=0.22.0

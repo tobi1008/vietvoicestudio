@@ -159,6 +159,11 @@ export default function App() {
 
           {/* Zone 3: Primary actions */}
           <div className="flex items-center gap-2">
+            <div className="hidden lg:flex items-center gap-1.5 px-2 py-1 rounded-md bg-emerald-950/60 border border-emerald-800/50 text-[11px] font-mono text-emerald-400">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>CI/CD Ready • v1.0.1</span>
+            </div>
+
             <button
               onClick={() => setIsDocsOpen(true)}
               className="px-3 py-1.5 text-xs font-medium rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition-colors flex items-center gap-1.5"
@@ -185,7 +190,7 @@ export default function App() {
             <span className="text-emerald-400 font-medium">100% Miễn phí & Mã nguồn mở</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white text-balance">
-            Nền tảng Text-to-Speech & Sao chép giọng nói Tiếng Việt
+            Nền tảng Text-to-Speech & Sao chép giọng nói Tiếng Việt Tobi
           </h1>
           <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
             Chuyển đổi văn bản thành giọng đọc tự nhiên chuẩn miền Bắc / miền Nam, hoặc nhân bản bất kỳ giọng nói tiếng Việt nào chỉ từ 3-10 giây âm thanh mẫu.

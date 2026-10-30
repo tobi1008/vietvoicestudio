@@ -392,8 +392,9 @@ async function startServer() {
     }
   }
 
+  // Code chuẩn cho Docker/K3s: ép cứng IP 0.0.0.0 để container nhận traffic từ bên ngoài
   httpServer.listen(PORT, '0.0.0.0', () => {
-    console.log(`[VietVoice Studio] Server running on http://0.0.0.0:${PORT}`);
+    console.log(`[VietVoice Studio] Server running on http://0.0.0.0:${PORT} (Docker/K3s Ready)`);
   });
 }
 

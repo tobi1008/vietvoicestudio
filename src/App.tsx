@@ -190,7 +190,7 @@ export default function App() {
             <span className="text-emerald-400 font-medium">100% Miễn phí & Mã nguồn mở</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white text-balance">
-            Nền tảng Text-to-Speech & Sao chép giọng nói Tiếng Việt Tobi
+            Nền tảng Text-to-Speech & Sao chép giọng nói Tiếng Việt Tobi 2026
           </h1>
           <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
             Chuyển đổi văn bản thành giọng đọc tự nhiên chuẩn miền Bắc / miền Nam, hoặc nhân bản bất kỳ giọng nói tiếng Việt nào chỉ từ 3-10 giây âm thanh mẫu.
